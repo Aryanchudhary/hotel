@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&family=Calligraffitti&family=Signika&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+/* font-family: 'Alkatra', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Signika', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* Navbar section start===================== */
+.navbar {
+  background: linear-gradient(rgb(225, 167, 167),rgb(241, 236, 236),rgb(124, 169, 124));
+  padding: 15px;
+  background:none;
+
+
+}
+.container .navbar-brand span{
+    color: red;
+    font-weight: bold;
+
+}
+.navbar  .container .navbar-brand {
+     font-weight: bold;
+     
+}
+#navbarSupportedContent li{
+      margin-left: 30px;
+    
+}
+#navbarSupportedContent li a{
+    color: black;
+    font-weight: bold;
+ transition: all 0.2s linear;
+  
+}
+#navbarSupportedContent li a:hover{
+    
+   border-top: 2px solid red;
+   border-radius: 10px;
+}
+#navbarSupportedContent .dropdown-menu{
+    background: linear-gradient(rgb(225, 167, 167),rgb(241, 236, 236),rgb(124, 169, 124));
+}
+/* Navbar section end====================== */
+
+
+/* home section start======================== */
+#carouselExampleFade h1{
+   font-weight: bold;
+   font-family: 'Alkatra', cursive;
+   color: black;
+   font-size: 65px;
+}
+.check{
+   
+    display: flex;
+    width: 100%;
+   padding-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    background-color: bisque;
+
+    
+}
+.check .check-1{
+    /* border: 1px solid gray; */
+    margin-top: 10px;
+    padding-top: 30px;
+    background:linear-gradient(rgb(189, 119, 119),rgb(107, 119, 197));
+    box-shadow:  0 0 10px 5px black;
+    border-radius: 5px;
+}
+.check .check-1 span{
+    color: black;
+    font-weight: bold;
+}
+.check .check-1 input{
+    background-color: rgb(158, 94, 94);
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+.check .check-1 .btn{
+    padding: 0px 25px;
+
+}
+.check .check-1 .btn:hover{
+    background-color: rgb(189, 111, 111);
+    border: 1px solid rebeccapurple;
+}
+.check .check-1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   
+}
+/* home sectione end====================== */
+
+
+/* Welcome section start====================== */
+#welcome{
+    text-align: center;
+    padding: 10rem 10px 5rem 10px;
+    background: rgb(214, 209, 209);
+    width: 100%;
+}
+#welcome .wel h2{
+    color: rgb(37, 29, 29);
+    font-size: 45px;
+    text-transform: capitalize;
+  
+    
+}
+#welcome .wel p{
+ text-align: center;
+}
+#welcome .btn-1{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(184, 30, 30);
+   transition: all 0.2s linear;
+}
+#welcome .btn-1 a{
+    color: rgb(14, 8, 8);
+    text-decoration: none;
+}
+#welcome .btn-1:hover{
+    background-color: rgb(170, 114, 114);
+  
+}
+/* Welcome sectione end=========================/ */
+
+
+
+/* About section stat============== */
+
+#about .container-fluid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    /* justify-content: space-around; */
+   
+
+}
+#about .container-fluid .about-text{
+    width:45%;
+    padding-top: 5rem;
+    padding-left: 2rem;padding-right: 2rem;
+    /* text-align: center; */
+  
+}
+#about .container-fluid .about-text h5{
+   padding-bottom: 10px;
+   color: black;
+   font-size: 30px;
+   font-weight: 20;
+   
+}
+#about .container-fluid .about-text p{
+    font-weight: 20;
+    letter-spacing: 1px;
+  
+}
+#about .btn-2{
+    border: 1px solid red;
+    background-color: antiquewhite;
+    padding: 10px;
+    transition: all 0.2s linear;
+}
+#about .btn-2:hover{
+    background-color: brown;
+}
+#about .btn-2 a{
+    text-decoration: none;
+    color: black;
+   
+}
+#about .container-fluid .about-img{
+   width: 55%;   
+   
+}
+#about .container-fluid .about-img img{
+    width: 740px;
+ 
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #about .container-fluid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #about .container-fluid .about-text{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #about .container-fluid .about-img img{
+       margin-top: 10px;
+        width: 185%;
+    }
+}
+/* Abut sctin en===================== */
+
+
+/* Room section start================== */
+#room{
+  padding-top: 5rem;
+  background-color: rgb(222, 221, 219);
+}
+#room .room-section{
+    text-align: center;
+}
+#room .room-section h1{
+    font-size: 35px;
+    font-weight: 15;
+}
+#room .room-section p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 15;
+    letter-spacing: 1px;
+}
+#room .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 5rem;
+
+}
+#room .container-fluid .room-item{
+    border: 1px solid rgb(215, 193, 193);
+    margin-top: 30px;
+    transition: all 0.2s linear;
+    /* height: 100%; */
+    /* padding-bottom: 10px; */
+}
+#room .container-fluid .room-item:hover{
+    box-shadow: 0 0 10px 5px rgb(23, 22, 29);
+    scale: 1.01;
+    cursor: pointer;
+    
+}
+#room .container-fluid .room-item img{
+    width: 100%;
+    height: 60%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all 0.4s linear;
+
+}
+#room .container-fluid .room-item img:hover{
+    scale: 1.01;
+
+}
+#room .container-fluid .room-item h4{
+   padding-top:10px;
+   padding-left: 10px;
+   padding-bottom: 15px;
+   border-bottom: 1px solid red;
+   font-size: 30px;
+   color: black;
+   font-weight:25;
+  
+}
+#room .container-fluid .room-item .bx{
+     padding: 10px 0px 15px 10px;
+    font-weight: bold;
+  
+}
+#room .container-fluid .room-item .bx span{
+    color: rgb(162, 125, 125);
+    
+}
+#room .container-fluid .room-item .price-1{
+    text-decoration: none;
+    color: rgb(251, 241, 241);
+    border: 1px solid red;
+   padding: 10px;
+   margin:10px;
+   background-color: rgb(186, 53, 53);
+   font-weight: bold;
+  
+   
+}
+#room .room-sec{
+    text-decoration: none;
+    border: none;
+    color: black;
+   padding-left: 60px;
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #room .container-fluid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #room .container-fluid .room-item{
+        padding: 10px;
+     height: 100%;
+    }
+}
+/* Room sectione end================== */
+
+/* room-1 section start=================== */
+#room-1{
+    background: rgb(218, 215, 220);
+    padding-top: 10px;
+}
+#room-1 .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 84rem;
+    justify-content: space-around;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#room-1 .room-1-img{
+    width:50%;
+}
+#room-1 .room-1-text{
+    width: 50%;
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-left: 50px;
+   
+}
+#room-1 .room-1-text .bx{
+    color: rgb(167, 41, 41);
+    padding: 10px;
+}
+#room-1 .room-1-text p{
+    color: rgb(50, 42, 42);
+    font-size: 35px;
+}
+#room-1 .room-1-text h5{
+    font-size: 20px;
+    font-weight: 10;
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #room-1 .container-fluid{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #room-1 .room-1-img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #room-1 .room-1-img img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:290px) and (max-width:767px){
+    #room-1 .room-1-text{
+        width: 100%;
+    }
+}
+/* room-1 section end======================== */
+
+
+/* Spacial Offer section start========================= */
+
+/* Position the image container (needed to position the left and right arrows) */
+#offer .container-fluid {
+    background:linear-gradient(rgb(227, 195, 195),rgb(119, 174, 119),rgb(199, 199, 215));
+}
+#offer .container-fluid .offer-text h3{
+    text-align: center;
+    text-transform: capitalize;
+   color: red;
+   font-weight: bold;
+   font-size: 45px;
+}
+.container-fluid {
+    position: relative;
+    padding-top: 10rem;
+    
+  }
+  .container-fluid .row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+   justify-content: space-around;
+
+  }
+  .container-fluid .row .column{
+    width: 15%;
+   
+  
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+  /* spacial offer section end====================== */
+
+  /* video sectinn start================== */
+#video .container-fluid{
+    display: flex;
+    justify-content: space-around;
+   width: 100%;
+    /* border: 1px solid  red; */
+    flex-wrap: wrap;
+    margin: auto;
+    background: linear-gradient(rgb(237, 238, 182),rgb(210, 163, 163),rgb(143, 170, 212),rgb(194, 95, 95));
+}
+#video .video-item{
+    width: 50%;
+}
+#video .video-text{
+    width: 50%;
+}
+
+@media only screen and (min-width:290px) and (max-width:767px){
+    #video .container-fluid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #video .container-fluid .video-item{
+       
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #video .container-fluid .video-item video{
+       
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #video .container-fluid .video-text{
+       text-align: center;
+        width: 100%;
+    }
+}
+/* video section end================== */
+
+
+
+/* hotel facilities section start====================== */
+#facilities{
+    background: linear-gradient(rgb(233, 224, 181),rgb(255, 246, 246));
+}
+#facilities .facilities-text h3{
+      text-align: center;
+      padding:5rem 0px 2rem 0px;
+      color: rgb(125, 100, 100);
+      font-weight:15;
+      font-size: 45px;
+    }
+#facilities .facilities-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 0px 2rem;
+
+}
+#facilities .facilities-item{
+    width: 45%;
+    padding: 3rem 0px;
+    margin: 10px 0px;
+   
+}
+#facilities .facilities-item .bx{
+    color: rgb(173, 47, 47);
+    font-size: 45px;
+    margin: 5px;
+}
+#facilities .facilities-item span{
+    color: rgb(73, 66, 66);
+    font-weight: bold;
+    font-size: 20px;
+}
+#facilities .facilities-item p{
+    padding: 5px 2rem;
+}
+
+/* hootel facilities section end======================= */
+
+
+
+/* footer section start===================== */
+#footer{
+    background-color: antiquewhite;
+}
+#footer .footer-text{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+      justify-content: space-around;
+      padding: 5rem 0px;
+      
+}
+#footer .footer-item{
+    margin-top: 10px;
+}
+#footer .footer-item h4{
+    color: rgb(7, 5, 5);
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#footer .footer-item .bx{
+    font-size: 30px;
+    color: rgb(184, 58, 58);
+    padding: 5px;
+    cursor: pointer;
+}
+#footer .footer-reserveds{
+   background-color: rgb(209, 39, 17);
+    padding: 2rem 0px;
+    color: wheat;
+}
+/* Footer section end====================== */
+
+/* 
+=======================================================================================================
+=======================================================================================================
+======================================================================================================
+===============================contact-1 section==================================================== */
+
+/* contact-1 home section start========================= */
+#contact-1home{
+    background-image: linear-gradient(rgb(0, 0, 0,0.5),rgb(0,0,0,0.5)),url(img-1.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#contact-1home h1{
+    margin-bottom: 20rem;
+}
+
+/* contact-1 home section end=========================== */
+
+
+
+/* Get in touch section start====================== */
+#get-in-touch .container-fluid{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:5rem 20px;
+}
+#get-in-touch .container-fluid .get-in-touch-fill{
+    width: 45%;
+    /* border: 1px solid red; */
+    margin: 0px 2px;
+
+}
+#get-in-touch .container-fluid .get-in-touch-fill input{
+    width: 300%;
+    height: 3rem;
+    border: 1px solid rgb(217, 208, 208);
+}
+#get-in-touch .container-fluid .get-in-touch-fill textarea{
+    width: 120%;
+    border: 1px solid rgb(233, 215, 215);
+}
+#get-in-touch .btn {
+  width: 15%;
+  text-align: center;
+
+}
+
+#get-in-touch .btn input {
+background-color: rgb(171, 91, 91);
+   color: white;
+   transition: all 0.2s linear;
+  }
+  #get-in-touch .btn input:hover{
+    background-color: #7d4d4d;
+    cursor: pointer;
+  }
+#get-in-touch .container-fluid .get-in-touch-text{
+    width: 45%;
+}
+#get-in-touch .container-fluid .get-in-touch-text h4{
+      color: black;
+      font-weight:400;
+      font-size: 20px;
+      padding: 2rem 0px 2rem 0px;
+}
+#get-in-touch .container-fluid .get-in-touch-text p{
+    color: rgb(88, 77, 77);
+}
+#get-in-touch .container-fluid .get-in-touch-text .bx{
+    padding-top: 1rem;
+    font-size: 35px;
+    color: rgb(143, 55, 55);
+    margin-right: 10px;
+
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #get-in-touch .container-fluid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    #get-in-touch .container-fluid .get-in-touch-fill,
+    #get-in-touch .container-fluid .get-in-touch-fill input {
+      
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    
+    #get-in-touch .btn {
+      
+        width: 100%;
+    }
+}
+@media only screen and (min-width:290px) and (max-width:767px){
+    
+   
+    #get-in-touch .container-fluid .get-in-touch-fill textarea{
+      
+        width: 100%;
+    }
+}
+/* Get in touch ecstion end======================= */
+
+
+/* map sectione start=================== */
+#map .map-1 iframe{
+    width: 100%;
+}
+/* map section end===================== */
